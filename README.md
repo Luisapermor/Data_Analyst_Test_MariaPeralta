@@ -23,7 +23,7 @@ This repository contains my submission for the Data Source API Analyst homework 
   - `api_research.md`: Summary of the endpoints used and logic behind their selection.
   - `error_handling_notes.md`: Notes on handling 401/403 errors, token verification, rate limit management, and retries.
 
-- `github_api_colab.ipynb`: Colab notebook with the full implementation, step-by-step.
+- `github_api_colab_MariaPeralta.ipynb`: Colab notebook with the full implementation, step-by-step.
 - `README.md`: This file.
 
 ---
@@ -62,14 +62,14 @@ Details and logic can be found in `/Content/api_research.md`.
 
 - [Google Colab](https://colab.research.google.com/): Main environment for code development and testing.
 - GitHub REST API: [Docs](https://docs.github.com/en/rest)
-- Python Libraries: `requests`, `json`, `time`, `pandas` (optional for formatting results)
+- Python Libraries: `requests`, `json`, `time`, `pandas` 
 
 ---
 
 ## How to Use
 
 1. Clone this repository.
-2. Open `github_api_colab.ipynb` in Google Colab.
+2. Open `github_api_colab_MariaPeralta.ipynb` in Google Colab.
 3. Add your GitHub personal access token in the setup cell.
 4. Run each section to test endpoints and review data output.
 
