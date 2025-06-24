@@ -21,20 +21,10 @@ This repository contains my submission for the Data Source API Analyst homework 
 - `/Content/`
   - `github_api_extract.py`: Core Python code for authentication, data extraction, and handling edge cases.
   - `api_research.md`: Summary of the endpoints used and logic behind their selection.
-  - `error_handling_notes.md`: Notes on handling 401/403 errors, token verification, rate limit management, and retries.
+  - `error_handling_notes.md`: Notes on handling 401 errors, token verification, rate limit management and pagination.
 
 - `github_api_colab_MariaPeralta.ipynb`: Colab notebook with the full implementation, step-by-step.
 - `README.md`: This file.
-
----
-
-## Features of the Implementation
-
-- **Authentication**: Securely handled using personal access tokens and headers.
-- **Pagination**: Implemented to fetch complete data from paginated endpoints.
-- **Rate Limit Management**: Automatically handles GitHub’s hourly rate limits by reading response headers and pausing requests if necessary.
-- **Error Handling**: Handles common issues such as expired/invalid tokens or missing permissions.
-- **Reusable Functions**: All requests are modularized into Python functions for clarity and reuse.
 
 ---
 
@@ -52,16 +42,6 @@ This repository contains my submission for the Data Source API Analyst homework 
 2. Open `github_api_colab_MariaPeralta.ipynb` in Google Colab.
 3. Add your GitHub personal access token in the setup cell.
 4. Run each section to test endpoints and review data output.
-
----
-
-## Troubleshooting Highlights
-
-- **401 Unauthorized**: Ensure your token is active and passed correctly in headers.
-- **Rate Limits**: Implemented a pause-and-retry logic if the request limit is reached.
-- **Pagination**: Handled using the `Link` header and iterative fetching.
-
-More details are in `/Content/error_handling_notes.md`.
 
 ---
 
