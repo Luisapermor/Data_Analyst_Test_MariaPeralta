@@ -18,10 +18,10 @@ This repository contains my submission for the Data Source API Analyst homework 
 
 ## Repository Structure
 
-- `/Content/`
-  - `github_api_extract.py`: Core Python code for authentication, data extraction, and handling edge cases.
+- `/Content/` 
   - `api_research.md`: Summary of the endpoints used and logic behind their selection.
   - `error_handling_notes.md`: Notes on handling 401 errors, token verification, rate limit management and pagination.
+  - `github_api_extract.py`: Core Python code for authentication, data extraction, and handling errors.
 
 - `github_api_colab_MariaPeralta.ipynb`: Colab notebook with the full implementation, step-by-step.
 - `README.md`: This file.
@@ -40,7 +40,7 @@ This repository contains my submission for the Data Source API Analyst homework 
 
 1. Clone this repository.
 2. Open `github_api_colab_MariaPeralta.ipynb` in Google Colab.
-3. Add your GitHub personal access token in the setup cell.
+3. Add your GitHub personal access token in the setup cell (Step 1).
 4. Run each section to test endpoints and review data output.
 
 ---
