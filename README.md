@@ -1,4 +1,4 @@
-# Data Source API Analyst Homework Assignment
+# Data Source API Analyst Homework 
 
 ## Overview
 
@@ -47,9 +47,7 @@ This repository contains my submission for the Data Source API Analyst homework 
 
 ## Reflection
 
-This assignment demonstrates real-world API integration skills. Using GitHub’s API provided a good exercise in managing rate limits, authentication, and data pagination. Choosing repositories related to marketing technology (e.g., dbt, Looker, Superset) also simulated a relevant client use case for Improvado’s business model — identifying tool usage trends or repository health.
-
-Google Colab was ideal for this task, offering a reproducible, shareable way to document and test API logic.
+In this project, I explored the GitHub REST API to search for public repositories related to marketing analytics. Using the /search/repositories endpoint and handling pagination, I retrieved a list of popular repositories, including plausible/analytics with over 22,000 stars, which stood out the most and I selected for the next steps. I analyzed recent commits and README plausible/analytics for the plausible/analytics repo to understand their current development activity and documentation quality. For instance, the latest updates focused on improving team switching and SSO features, showing a collaborative development team. This exercise demonstrated how GitHub’s API can provide valuable insights into project popularity, contributor dynamics, and ongoing feature development.
 
 ---
 
