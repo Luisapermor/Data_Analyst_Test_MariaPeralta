@@ -28,26 +28,6 @@ This repository contains my submission for the Data Source API Analyst homework 
 
 ---
 
-## API Endpoints Used
-
-These endpoints were selected to simulate common use cases for marketing or product analytics teams:
-
-1. **Search Repositories**  
-   `GET /search/repositories?q=...`  
-   Used to discover public repositories related to tools (e.g., marketing analytics, ELT).
-
-2. **List Commits**  
-   `GET /repos/{owner}/{repo}/commits`  
-   Used to analyze contribution activity, release cycles, or team velocity.
-
-3. **Get Repository Contents**  
-   `GET /repos/{owner}/{repo}/contents/{path}`  
-   Used to access documentation or configuration files.
-
-Details and logic can be found in `/Content/api_research.md`.
-
----
-
 ## Features of the Implementation
 
 - **Authentication**: Securely handled using personal access tokens and headers.
